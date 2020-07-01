@@ -6,7 +6,7 @@ npm i random-names-places
 
 const randomNames = require('random-names-places');
 
-#### randomNames.all() -> This will fetch you all the names availiable
+#### randomNames.all -> This will fetch you all the names availiable
 
 #### randomNames.random() -> This will fetch you random name availiable
 
