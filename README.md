@@ -1,1 +1,1 @@
-# random-names
+# Random Names Library
