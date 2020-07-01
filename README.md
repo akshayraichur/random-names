@@ -1,17 +1,29 @@
 # Random Names-places Library
 
-How do you use it?
+Get random and unique names of Human Beings and Places present in the World.
 
-npm i random-names-places
+Please conside Following this project's Author, [Akshay Raichur](https://akshayraichur.com) on [Instagram](https://instagram.com/akshay.raichur)
 
-const randomNames = require('random-names-places');
+# Install
 
-#### randomNames.all() -> This will fetch you all the names availiable
+Install with npm:
 
-#### randomNames.random() -> This will fetch you random name availiable
+```
+npm install random-names-places --save
+```
 
-#### randomName.randomPlaces() -> This will fetch you a random place
+# Usage
 
-#### randomName.randomMiddleNames() -> This will fetch you a random middle name
+```
+const random = require('random-names-places');
 
-#### random.randomStarWarsname() -> This will fetch you a cool starwars name
+console.log(random.all) // This will log all the names availiable
+
+console.log(random.name()) // This will log a random name availiable
+
+console.log(random.place()) // This will log a random place
+
+console.log(random.middleName()) // This will log a random middle name
+
+console.log(random.starWarsName()) // This will log a cool starwars name
+```
