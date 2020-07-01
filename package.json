@@ -1,17 +1,26 @@
 {
-  "name": "start-wars",
+  "name": "random-names-places",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshayraichur/random-names"
+  },
   "keywords": [
     "random",
+    "names",
+    "places",
     "star wars"
   ],
-  "author": "Akshay Raichur",
-  "license": "ISC",
+  "author": "Akshay Raichur <akshay.raichur99@gmail.com> (https://akshayraichur.com) ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akshayraichur/random-names/issues"
+  },
   "dependencies": {
     "unique-random-array": "2.0.0"
   }
