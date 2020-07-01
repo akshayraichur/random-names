@@ -6,8 +6,6 @@ Please conside Following this project's Author, [Akshay Raichur](https://akshayr
 
 # Install
 
-Install with npm:
-
 ```
 npm install random-names-places --save
 ```
